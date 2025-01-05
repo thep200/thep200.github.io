@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #111;
+    font-family: 'Monaspace Radon';
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.neon-box {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.neon-text {
+    color: #aaf0d1;
+    font-size: 1.5em;
+    padding-bottom: 30px;
+    text-shadow:
+        0 0 5px #aaf0d1,
+        0 0 10px #aaf0d1,
+        0 0 20px #aaf0d1,
+        0 0 40px #aaf0d1;
+}
